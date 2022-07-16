@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon Quiz en JS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>Quizz Culture générale </h1>
+
+
+        <div class="container_global">
+            <form class="quizz">
+
+                <div class="question_block">
+                    <h4>Quel est la capitale politique du Cameroun ?</h4>
+
+                    <div>
+                        <input type="radio" id="Douala" name="q1" value="a" checked>
+                        <label for="Douala">Douala</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="Yaounde" name="q1" value="b" checked>
+                        <label for="Yaounde">Yaoundé</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="Garoua" name="q1" value="c" checked>
+                        <label for="Garoua">Garoua</label>
+                    </div>
+
+                </div> 
+                
+                <div class="question_block">
+                    <h4>Quel est la capitale économique du Cameroun ?</h4>
+
+                    <div>
+                        <input type="radio" id="Douala" name="q2" value="a" checked>
+                        <label for="Douala">Douala</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="Yaounde" name="q2" value="b" checked>
+                        <label for="Yaounde">Yaoundé</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="Garoua" name="q2" value="c" checked>
+                        <label for="Garoua">Garoua</label>
+                    </div>
+
+                </div>
+
+                <div class="question_block">
+                    <h4>Quel est la date de l'indépendence du Cameroun ?</h4>
+
+                    <div>
+                        <input type="radio" id="date1" name="q3" value="a" checked>
+                        <label for="date1">18 novembre 2001</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="date2" name="q3" value="b" checked>
+                        <label for="date2">20 mai 1972</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="date3" name="q3" value="c" checked>
+                        <label for="date3">1er janvier 1960</label>
+                    </div>
+
+                </div>
+
+                <div class="question_block">
+                    <h4>Qui était le premier président de la république du Cameroun ?</h4>
+
+                    <div>
+                        <input type="radio" id="ahidjo" name="q4" value="a" checked>
+                        <label for="ahidjo">Mr Ahmadou Ahidjo</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="biya" name="q4" value="b" checked>
+                        <label for="biya">Mr Paul Biya</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="samba" name="q4" value="c" checked>
+                        <label for="samba">Mr Martin Paul Samba</label>
+                    </div>
+
+                </div>
+
+                <div class="question_block">
+                    <h4>Dans quel continent se trouve le Cameroun ?</h4>
+
+                    <div>
+                        <input type="radio" id="europe" name="q5" value="a" checked>
+                        <label for="europe">Europe</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="amerique" name="q5" value="b" checked>
+                        <label for="amerique">Amérique</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="afrique" name="q5" value="c" checked>
+                        <label for="afrique">Afrique</label>
+                    </div>
+
+                </div>
+
+                <button type="submit">Valider vos réponses !</button>
+                
+            </form>
+
+            <div class="resultats">
+                <h2>Cliquer pour valider vos choix.</h2>
+                <p class="aide"></p>
+                <p class="note"></p>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>  
